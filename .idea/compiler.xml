@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dataload" />
+        <module name="kafkaStreaming" />
         <module name="OfflineRecommender" />
+        <module name="onlineRecommender" />
         <module name="StatisticsRecommender" />
       </profile>
     </annotationProcessing>

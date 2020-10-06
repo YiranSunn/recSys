@@ -4,11 +4,11 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.mllib.recommendation.{Rating, ALS, MatrixFactorizationModel}
 import org.jblas.DoubleMatrix
 
-case class ProductRating( userId: Int,
-                   productId: Int,
-                   score: Double,
-                   timestamp: Int
-                 )
+case class ProductRating(userId: Int,
+                         productId: Int,
+                         score: Double,
+                         timestamp: Int
+                        )
 
 
 case class MongoConfig(uri: String,
