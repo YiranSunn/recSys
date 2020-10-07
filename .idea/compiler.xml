@@ -9,11 +9,15 @@
         <module name="businessServer" />
         <module name="ContentRecommender" />
         <module name="dataload" />
+        <module name="itemCFRecommender" />
         <module name="kafkaStreaming" />
         <module name="OfflineRecommender" />
         <module name="onlineRecommender" />
         <module name="StatisticsRecommender" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="businessServer" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

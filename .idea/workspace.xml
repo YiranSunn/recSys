@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26627a6-b498-4d03-87d5-24817f72dba4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/recSys.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/businessServer/businessServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/ContentRecommender/src/main/scala/com/yiran/content/ContentRecommender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/itemCFRecommender/itemCFRecommender.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/itemCFRecommender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/itemCFRecommender/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/itemCFRecommender/src/main/scala/com/yiran/itemCF/itemCFRecommender.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recommender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/pom.xml" afterDir="false" />
@@ -23,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/recommender/kafkaStreaming/target/" />
     <ignored path="$PROJECT_DIR$/businessServer/target/" />
     <ignored path="$PROJECT_DIR$/recommender/ContentRecommender/target/" />
+    <ignored path="$PROJECT_DIR$/recommender/itemCFRecommender/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +66,10 @@
     <session id="682831780">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -79,17 +77,17 @@
           <entry key="ft" value="59" />
           <entry key="java" value="236" />
           <entry key="properties" value="4" />
-          <entry key="scala" value="877" />
-          <entry key="xml" value="16" />
+          <entry key="scala" value="1617" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="236" />
           <entry key="Properties" value="4" />
-          <entry key="Scala" value="877" />
+          <entry key="Scala" value="1617" />
           <entry key="VTL" value="59" />
-          <entry key="XML" value="16" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,8 +95,8 @@
           <entry key="java" value="5" />
           <entry key="log" value="2" />
           <entry key="properties" value="2" />
-          <entry key="scala" value="4" />
-          <entry key="xml" value="8" />
+          <entry key="scala" value="5" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -106,8 +104,8 @@
           <entry key="JAVA" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="2" />
-          <entry key="Scala" value="4" />
-          <entry key="XML" value="8" />
+          <entry key="Scala" value="5" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -117,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/yiran/offline/OfflineRecommender.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="554">
+              <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="23" />
               <folding>
                 <element signature="e#26#59#0" expanded="true" />
               </folding>
@@ -127,12 +125,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/recommender/ContentRecommender/src/main/scala/com/yiran/content/ContentRecommender.scala">
+        <entry file="file://$PROJECT_DIR$/recommender/itemCFRecommender/src/main/scala/com/yiran/itemCF/itemCFRecommender.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="102" column="33" lean-forward="true" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+            <state relative-caret-position="167">
+              <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
               <folding>
-                <element signature="e#28#61#0" expanded="true" />
+                <element signature="e#26#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,6 +190,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/recommender/ContentRecommender/pom.xml" />
         <option value="$PROJECT_DIR$/recommender/ContentRecommender/src/main/scala/com/yiran/content/ContentRecommender.scala" />
+        <option value="$PROJECT_DIR$/recommender/itemCFRecommender/pom.xml" />
+        <option value="$PROJECT_DIR$/recommender/itemCFRecommender/src/main/scala/com/yiran/itemCF/itemCFRecommender.scala" />
       </list>
     </option>
   </component>
@@ -233,9 +233,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="247" />
-    <option name="y" value="46" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="230" />
+    <option name="y" value="42" />
     <option name="width" value="1433" />
     <option name="height" value="977" />
   </component>
@@ -275,12 +275,148 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="ContentRecommender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="ContentRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="ContentRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="ContentRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="itemCFRecommender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="itemCFRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="itemCFRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="itemCFRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="itemCFRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="itemCF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="offline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recSys" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602028613861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602091605961" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -291,11 +427,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recommender/itemCFRecommender/src/main/resources" />
       <recent name="$PROJECT_DIR$/recommender/ContentRecommender/src/main/resources" />
       <recent name="$PROJECT_DIR$/recommender/kafkaStreaming/src/main/resources" />
       <recent name="$PROJECT_DIR$/recommender/onlineRecommender/src/main/resources" />
       <recent name="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/resources" />
-      <recent name="$PROJECT_DIR$/recommender/StatisticsRecommender/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,7 +446,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContentRecommender">
+  <component name="RunManager" selected="Application.itemCFRecommender">
     <configuration name="ALSTrainer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.yiran.offline.ALSTrainer" />
       <module name="OfflineRecommender" />
@@ -350,12 +486,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OfflineRecommender" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.yiran.offline.OfflineRecommender" />
-      <module name="OfflineRecommender" />
+    <configuration name="itemCFRecommender" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiran.itemCF.itemCFRecommender" />
+      <module name="itemCFRecommender" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiran.offline.*" />
+          <option name="PATTERN" value="com.yiran.itemCF.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,19 +513,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OfflineRecommender" />
       <item itemvalue="Application.ALSTrainer" />
       <item itemvalue="Application.onlineRecommender" />
       <item itemvalue="Application.Application" />
       <item itemvalue="Application.ContentRecommender" />
+      <item itemvalue="Application.itemCFRecommender" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.itemCFRecommender" />
         <item itemvalue="Application.ContentRecommender" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.onlineRecommender" />
         <item itemvalue="Application.ALSTrainer" />
-        <item itemvalue="Application.OfflineRecommender" />
       </list>
     </recent_temporary>
   </component>
@@ -405,12 +541,13 @@
       <updated>1601653129135</updated>
       <workItem from="1601653132348" duration="24621000" />
       <workItem from="1602010255827" duration="9350000" />
-      <workItem from="1602025397972" duration="2902000" />
+      <workItem from="1602025397972" duration="3219000" />
+      <workItem from="1602030903943" duration="2487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36873000" />
+    <option name="totallyTimeSpent" value="39677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,10 +559,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="247" y="46" width="1433" height="977" extended-state="1" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.209202" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20886981" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -435,14 +572,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964055" weight="0.719774" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964055" visible="true" weight="0.526506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.11073446" />
+      <window_info anchor="bottom" id="Terminal" internal_type="SLIDING" order="7" type="SLIDING" weight="0.6457831" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5003595" side_tool="true" weight="0.719774" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32768363" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32650602" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3299435" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
@@ -510,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="293" lean-forward="true" selection-start-line="293" selection-end-line="293" />
-          <folding>
-            <element signature="e#26#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,10 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <element signature="e#30#63#0" expanded="true" />
-            <element signature="e#1729#1747#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,9 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -555,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender/ContentRecommender/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommender/OfflineRecommender/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="771">
@@ -604,22 +721,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/ContentRecommender/src/main/scala/com/yiran/content/ContentRecommender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1854">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#28#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/ContentRecommender/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="53" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/itemCFRecommender/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="938">
+          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/yiran/offline/OfflineRecommender.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="554">
+          <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="23" />
           <folding>
             <element signature="e#26#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recommender/ContentRecommender/src/main/scala/com/yiran/content/ContentRecommender.scala">
+    <entry file="file://$PROJECT_DIR$/recommender/itemCFRecommender/src/main/scala/com/yiran/itemCF/itemCFRecommender.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="102" column="33" lean-forward="true" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+        <state relative-caret-position="167">
+          <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
           <folding>
-            <element signature="e#28#61#0" expanded="true" />
+            <element signature="e#26#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
