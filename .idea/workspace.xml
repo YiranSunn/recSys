@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26627a6-b498-4d03-87d5-24817f72dba4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/recommender/itemCFRecommender/itemCFRecommender.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/itemCFRecommender/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/itemCFRecommender/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recommender/itemCFRecommender/src/main/scala/com/yiran/itemCF/itemCFRecommender.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recommender/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/businessServer/businessServer.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/recommender/target/" />
@@ -127,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recommender/itemCFRecommender/src/main/scala/com/yiran/itemCF/itemCFRecommender.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+            <state relative-caret-position="274">
+              <caret line="97" column="13" lean-forward="true" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
               <folding>
                 <element signature="e#26#59#0" expanded="true" />
               </folding>
@@ -233,11 +227,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="230" />
-    <option name="y" value="42" />
+    <option name="y" value="23" />
     <option name="width" value="1433" />
-    <option name="height" value="977" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -290,123 +284,6 @@
               <item name="recSys" type="462c0819:PsiDirectoryNode" />
               <item name="recommender" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentRecommender" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="itemCFRecommender" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="itemCFRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="itemCFRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="itemCFRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="itemCFRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="itemCF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="offline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eComRec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recSys" type="462c0819:PsiDirectoryNode" />
-              <item name="recommender" type="462c0819:PsiDirectoryNode" />
-              <item name="OfflineRecommender" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -416,7 +293,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602091605961" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602091709351" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -542,12 +419,12 @@
       <workItem from="1601653132348" duration="24621000" />
       <workItem from="1602010255827" duration="9350000" />
       <workItem from="1602025397972" duration="3219000" />
-      <workItem from="1602030903943" duration="2487000" />
+      <workItem from="1602030903943" duration="2729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39677000" />
+    <option name="totallyTimeSpent" value="39919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,10 +436,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="230" y="23" width="1433" height="877" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20886981" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20992091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -572,7 +449,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964055" visible="true" weight="0.526506" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964055" weight="0.526506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -757,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recommender/itemCFRecommender/src/main/scala/com/yiran/itemCF/itemCFRecommender.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+        <state relative-caret-position="274">
+          <caret line="97" column="13" lean-forward="true" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
           <folding>
             <element signature="e#26#59#0" expanded="true" />
           </folding>
