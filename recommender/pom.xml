@@ -17,6 +17,7 @@
         <module>OfflineRecommender</module>
         <module>onlineRecommender</module>
         <module>kafkaStreaming</module>
+        <module>ContentRecommender</module>
     </modules>
 
     <dependencyManagement>
