@@ -1,6 +1,6 @@
 # Recommender System
 
-This code includes offline recommendation, online recommendeation, severals way to calculate items'similarity.
+Recommend items to users on Online shopping platform. This code includes offline recommendation, online recommendeation, severals way to calculate items'similarity.
 
 ### Environment Setup
 We implement the experiment using following tech stack:
