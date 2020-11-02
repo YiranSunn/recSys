@@ -1,6 +1,6 @@
 # Recommender System
 
-Recommend items to users on Online shopping platform. This code includes offline recommendation, online recommendeation, severals way to calculate items' similarity.
+Recommend items to users on Online shopping platform. This code includes offline recommendation, online recommendation, severals way to calculate items' similarity.
 
 ### Environment Setup
 We implement the experiment using following tech stack:
@@ -22,3 +22,7 @@ We implement the experiment using following tech stack:
 -2.3 GHz Dual-Core Intel Core i5
 
 -8 GB 2133 MHz LPDDR3
+
+### Use as framework
+
+It's easy to use current code to fit your own data. Upload your own data files under path recSys/recommender/dataload/src/main/resources/, then modify related scala data code in the models you'd like to use.
