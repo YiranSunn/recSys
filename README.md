@@ -1,8 +1,9 @@
 # Recommender System
 
-Recommend items to users on Online shopping platform. This code includes offline recommendation, online recommendation, severals way to calculate items' similarity.
+Recommend items to users on shopping platform. This code includes severals way for recommendation.
 
 ### Environment Setup
+
 We implement the experiment using following tech stack:
 
 -Java SE Development Kit 8
