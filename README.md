@@ -25,4 +25,4 @@ We implement the experiment using following tech stack:
 
 ### Use as framework
 
-It's easy to use current code to fit your own data. Upload your own data files under path recSys/recommender/dataload/src/main/resources/, then modify related scala data code in the models you'd like to use.
+It's easy to use current code to fit your own data. Upload your own data files under path recSys/recommender/dataload/src/main/resources/, then modify "data part" of scala code in the models you'd like to use.
